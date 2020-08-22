@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Poppins_Medium;
+  src: url("../assets/fonts/Poppins-Medium.ttf");
+}
+
+:root {
+  --fs-section-main: 100px;
+  --fs-section-sub: 26px;
+  --fs-header: 23px;
+
+  --ff-header: Poppins_Medium;
+  --gra-pink: #d003e6;
+  --gra-yellow: #ffff41;
+}
+
+@media (--sm) {
+  :root {
+    --fs-section-main: 30px;
+    --fs-section-sub: 20px;
+  }
+}
+
+@media (--x-sm) {
+  :root {
+    --fs-section-main: 20px;
+    --fs-section-sub: 16px;
+  }
+}
+
+@media (--md) {
+  :root {
+    --fs-section-main: 40px;
+    --fs-section-sub: 16px;
+  }
+}
+@media (--x-md) {
+  :root {
+    --fs-section-main: 60px;
+    --fs-section-sub: 18px;
+  }
+}
+
+@media (--bg) {
+  :root {
+    --fs-section-main: 80px;
+    --fs-section-sub: 20px;
+  }
+}
